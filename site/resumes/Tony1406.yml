@@ -1,0 +1,83 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Anthony
+    last_name: Gomez
+    
+    # Define yourself in 4-5 words
+    motto: Being humble worth it
+    
+    # Focus
+    focus: Being better every day
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I consider myself an ambicious person, I always try to improve my skills to reach new levels in my personal and professional life. One of the things that I mostly enjoy is when I can share my success with my belovers. I'm actually stydying for being an Full-Stack Developer, using JavaScript, Python, HTML, CSS, and other tools. 
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: anthony.go0609@gmail.com
+    phone: 0414-038-31-69
+    linkedin: https://www.linkedin.com/in/anthony-gomez-51a47528a/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Tony1406
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Gym
+
+      - item: Martial Arts
+
+      - item: Learning
+
+education:
+    - degree: Degree in Psychology
+      university: Universidad Catolica Andres Bello
+      university_logo: https://www.ucab.edu.ve/wp-content/uploads/2019/04/Logo_UCAB_3.png
+      time: 2020-2023
+      details: |
+        First I was interested in human behaviour and mental processes, I enjoy those years, and I learn a lot, but, I realized, that Psychology wasn't for me. I dimited from Psychology Carrer in the middle of my four year to seek another posibility that I considered multiples times before, beeing a Web Developer. 
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: IgFeed
+        link: https://github.com/4GeeksAcademy/MyIgFeed
+        tagline: "Instagram's Copy"
+
+      - title: Excuse Generator
+        link: https://github.com/4GeeksAcademy/MyExcusesProyect
+        tagline: "A website that offers you a new excuse everytime you refresh the page"
+
+
+skills:
+    toolset:
+      - name: JavaScript
+        level: 10%
+
+      - name: HTML5 & CSS
+        level: 20%
